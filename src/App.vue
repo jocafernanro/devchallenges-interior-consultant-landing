@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-black text-white py-6 px-16">
+  <div id="app" class="bg-black text-white py-6 px-4 md:py-6 md:px-16">
     <BaseNavbar></BaseNavbar>
     <BaseSection></BaseSection>
     <BaseFooter></BaseFooter>
