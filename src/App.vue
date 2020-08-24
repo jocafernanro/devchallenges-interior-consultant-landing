@@ -1,5 +1,8 @@
 <template>
-  <div id="app" class="bg-black text-white py-6 px-4 md:py-6 md:px-16">
+  <div
+    id="app"
+    class="max-w-7xl mx-auto bg-black text-white py-6 px-4 md:py-6 md:px-16"
+  >
     <BaseNavbar></BaseNavbar>
     <BaseSection></BaseSection>
     <BaseFooter></BaseFooter>
@@ -32,10 +35,12 @@ export default {
   --global-font-size: 1rem;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
+  --color-black: #181719;
 }
 html,
 body {
   font-family: var(--global-font-family);
+  background-color: var(--color-black);
   font-size: 16px;
   font-weight: var(--font-weight-regular);
   -webkit-font-smoothing: antialiased;

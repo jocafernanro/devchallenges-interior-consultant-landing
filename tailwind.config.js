@@ -13,6 +13,9 @@ module.exports = {
       fontSize: {
         xxs: ".65rem",
       },
+      maxWidth: {
+        "7xl": "120rem",
+      },
     },
   },
   variants: {},
